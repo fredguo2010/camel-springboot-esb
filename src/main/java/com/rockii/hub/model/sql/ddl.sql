@@ -1,0 +1,23 @@
+CREATE TABLE WorkOrder (
+                           id INT IDENTITY(1,1) PRIMARY KEY,
+                           cOrderNo VARCHAR(255),
+                           cDescription VARCHAR(255),
+                           cBarcode VARCHAR(255),
+                           cCustomerOrderNo VARCHAR(255),
+                           cCustomerBookingNo VARCHAR(255),
+                           cCustomerName VARCHAR(255),
+                           cCustomerNo VARCHAR(255),
+                           cCategory VARCHAR(255),
+                           cPartNo VARCHAR(255),
+                           dDueDate DATETIME,
+                           iPriority INT,
+                           dDesiredQuantity DECIMAL(18, 3),
+                           iStatus INT,
+                           cWorkplanName VARCHAR(255),
+                           cCadFilename VARCHAR(255),
+                           cAssembly VARCHAR(255),
+                           cFillerPartsOrder VARCHAR(255),
+                           cStockOrder VARCHAR(255),
+                           cMonitoringFlag VARCHAR(255),
+                           cMaterial VARCHAR(255)
+);

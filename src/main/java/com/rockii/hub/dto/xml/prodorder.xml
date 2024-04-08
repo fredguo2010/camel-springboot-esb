@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<PPSImport Version="1.1">
+    <ProductionOrders>
+        <ProductionOrder OrderNo="800000001111">
+            <Description>垫圈</Description>
+            <Barcode />
+            <CustomerOrderNo>220922SB4</CustomerOrderNo>
+            <CustomerBookingNo />
+            <CustomerName />
+            <CustomerNo />
+            <Category>S21_SA01</Category>
+            <PartNo>A7E0017506620_00</PartNo>
+            <DueDate>11.10.2022 08:30:00</DueDate>
+            <Priority>3</Priority>
+            <DesiredQuantity>36.000 </DesiredQuantity>
+            <Status>10</Status>
+            <WorkplanName />
+            <CADFilename />
+            <Assembly />
+            <FillerPartsOrder />
+            <StockOrder />
+            <MonitoringFlag />
+            <Material />
+        </ProductionOrder>
+    </ProductionOrders>
+    <Parts>
+        <Part PartNo="A7E0017506620_00">
+            <PartNoExt />
+            <Description>垫圈</Description>
+            <Note />
+            <Note2 />
+            <Category>S21_SA01</Category>
+            <DrawingNo>175-0662.0</DrawingNo>
+            <CADFilename />
+            <Material />
+            <IsAutoRemoveable />
+            <WorkingPlan>
+                <WorkingStep OperationNo="0005">
+                    <Activity>111-NC</Activity>
+                    <WorkPlace>111-NC</WorkPlace>
+                    <TargetProcessingTime>00:00:00</TargetProcessingTime>
+                    <TargetSetupTime>00:01:00</TargetSetupTime>
+                    <TargetRestTime />
+                    <ActivityDescription>CNC编程</ActivityDescription>
+                    <IsQuantityDependent>0</IsQuantityDependent>
+                    <DueDate>03.10.2022 16:28:46</DueDate>
+                    <Resources />
+                </WorkingStep>
+                <WorkingStep OperationNo="0010">
+                    <Activity>111-04</Activity>
+                    <WorkPlace>111-04</WorkPlace>
+                    <TargetProcessingTime>00:02:54</TargetProcessingTime>
+                    <TargetSetupTime>00:01:00</TargetSetupTime>
+                    <TargetRestTime />
+                    <ActivityDescription>激光 CNC编程和全激光切割</ActivityDescription>
+                    <IsQuantityDependent>0</IsQuantityDependent>
+                    <DueDate>05.10.2022 16:33:13</DueDate>
+                    <Resources>
+                        <Resource>
+                            <Material>A7E1002503338</Material>
+                            <Quantity>0.075 </Quantity>
+                            <UnitOfQuantity>kg</UnitOfQuantity>
+                        </Resource>
+                    </Resources>
+                </WorkingStep>
+                <WorkingStep OperationNo="0020">
+                    <Activity>111-22</Activity>
+                    <WorkPlace>111-22</WorkPlace>
+                    <TargetProcessingTime>00:18:00</TargetProcessingTime>
+                    <TargetSetupTime>00:02:00</TargetSetupTime>
+                    <TargetRestTime />
+                    <ActivityDescription>钳 倒角修光棱边</ActivityDescription>
+                    <IsQuantityDependent>0</IsQuantityDependent>
+                    <DueDate>06.10.2022 16:55:55</DueDate>
+                    <Resources />
+                </WorkingStep>
+                <WorkingStep OperationNo="0030">
+                    <Activity>QA-PP</Activity>
+                    <WorkPlace>QA-PP</WorkPlace>
+                    <TargetProcessingTime>00:01:48</TargetProcessingTime>
+                    <TargetSetupTime>00:00:00</TargetSetupTime>
+                    <TargetRestTime />
+                    <ActivityDescription>检  检验</ActivityDescription>
+                    <IsQuantityDependent>0</IsQuantityDependent>
+                    <DueDate>06.10.2022 16:57:58</DueDate>
+                    <Resources />
+                </WorkingStep>
+                <WorkingStep OperationNo="0040">
+                    <Activity>OPCNFI</Activity>
+                    <WorkPlace>OPCNFI</WorkPlace>
+                    <TargetProcessingTime>00:00:00</TargetProcessingTime>
+                    <TargetSetupTime>00:01:00</TargetSetupTime>
+                    <TargetRestTime />
+                    <ActivityDescription>送外协区</ActivityDescription>
+                    <IsQuantityDependent>0</IsQuantityDependent>
+                    <DueDate>06.10.2022 16:58:59</DueDate>
+                    <Resources />
+                </WorkingStep>
+                <WorkingStep OperationNo="0050">
+                    <Activity>OPCNFII</Activity>
+                    <WorkPlace>OPCNFII</WorkPlace>
+                    <TargetProcessingTime>00:00:00</TargetProcessingTime>
+                    <TargetSetupTime>00:01:00</TargetSetupTime>
+                    <TargetRestTime />
+                    <ActivityDescription>送外协供应商</ActivityDescription>
+                    <IsQuantityDependent>0</IsQuantityDependent>
+                    <DueDate>06.10.2022 17:00:00</DueDate>
+                    <Resources />
+                </WorkingStep>
+                 <WorkingStep OperationNo="0060">
+                    <Activity>5623ZINC</Activity>
+                    <WorkPlace>5623ZINC</WorkPlace>
+                    <TargetProcessingTime>00:00:00</TargetProcessingTime>
+                    <TargetSetupTime>48:00:00</TargetSetupTime>
+                    <TargetRestTime />
+                    <ActivityDescription>$协 表面处理根据TDS 953-0077.9</ActivityDescription>
+                    <IsQuantityDependent>0</IsQuantityDependent>
+                    <DueDate>11.10.2022 08:30:00</DueDate>
+                    <Resources />
+                </WorkingStep>
+            </WorkingPlan>
+        </Part>
+    </Parts>
+</PPSImport>
